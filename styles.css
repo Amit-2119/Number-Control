@@ -1,0 +1,49 @@
+body{
+    background-color: white;
+}
+span{
+    font-size: 30px;
+}
+
+.progress-bar {
+    border: solid black ;
+    padding: 10;
+    margin: 10;
+    
+    width: 0%;
+    height: 30px;
+    background-color: green;
+    transition: width 0.5s ease; 
+}
+h1{
+    color: white;
+}
+.heading{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    padding: 0%;
+    border: 0;
+    margin: 0;
+
+}
+.context{
+    display:grid;
+    height: 300px;
+    border-radius: 22px;
+    border-width: 45px;
+    margin: 10px;
+    background-color: aqua;
+    border: solid black;
+    align-items: center;
+    margin-top: 10% ;
+}
+.prg{
+    justify-content: center;
+    padding-left:40%;
+}
+
+.btn{
+    margin: 20px;
+    border: 1px solid black;
+    font-size: 30px;
+}
